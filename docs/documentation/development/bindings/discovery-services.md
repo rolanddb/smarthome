@@ -6,7 +6,7 @@ layout: documentation
 
 # Implementing a Discovery Service
 
-Bindings can implement the `DiscoveryService` interface and register it as an OSGi service, to inform the framework about devices and services, that can be added as things to the system (see also [Inbox & Discovery Concept](../../concepts/discovery.html)).
+Bindings can implement the `DiscoveryService` interface and register it as an OSGi service, to inform the framework about devices and services, that can be added as things to the system (see also [Inbox & Discovery Concept](../../concepts/discovery.md)).
 
 To simplify the implementation of own discovery services, an abstract base class `AbstractDiscoveryService` implements the `DiscoveryService`, that must only be extended. Subclasses of `AbstractDiscoveryService` do not need to handle the `DiscoveryListeners` themselves, they can use the methods `thingDiscovered` and `thingRemoved` to notify the registered listeners. Most of the descriptions in this chapter refer to the `AbstractDiscoveryService`.
 

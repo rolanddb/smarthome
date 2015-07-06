@@ -48,9 +48,9 @@ There are different ways how a thing can be discovered:
 
 Eclipse SmartHome already comes with some discovery services. These are: 
 
-- `UPnPDiscoveryService`: This discovery service discovers all IP devices using the UPnP protocol. The bindings must implement a `UpnpDiscoveryParticipant` to support this discovery service. The [UPnP discovery service documentation](../development/bindings/discovery-services.html#upnp-discovery) explains in detail, how to do that. 
+- `UPnPDiscoveryService`: This discovery service discovers all IP devices using the UPnP protocol. The bindings must implement a `UpnpDiscoveryParticipant` to support this discovery service. The [UPnP discovery service documentation](../development/bindings/discovery-services.md#upnp-discovery) explains in detail, how to do that. 
 - `MDNSDiscoveryService`: All devices supporting the mDNS protocol are discovered by this service. 
 
 Bindings implement more discovery services, e.g. the search for Hue lights in the Hue binding or the search for the local weather in the Yahoo weather binding. 
 
-The [Implement Discovery Service](../development/bindings/discovery-services.html) chapter describes how to implement DiscoveryServices in a binding.
+The [Implement Discovery Service](../development/bindings/discovery-services.md) chapter describes how to implement DiscoveryServices in a binding.
